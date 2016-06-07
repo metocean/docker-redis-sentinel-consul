@@ -1,3 +1,4 @@
 #!/bin/sh
 cd /redis-data
+exec redis-server
 exec redis-sentinel /etc/sentinel.conf
