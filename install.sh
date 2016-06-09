@@ -18,6 +18,8 @@ cp -R /install/consul/* /
 # install redis
 cp -R /install/redis/* /
 
+cp -R /install/redis-sentinel/* /
+
 # install init.sh
 mv /install/init.sh /sbin/initsh
 
