@@ -15,6 +15,9 @@ apt-get remove -y unzip
 rm -rf /var/lib/apt/lists/*
 cp -R /install/consul/* /
 
+# install redis
+cp -R /install/redis/* /
+
 cp -R /install/redis-sentinel/* /
 
 # install init.sh
